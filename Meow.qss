@@ -1,0 +1,96 @@
+/* Thanks for using my theme :D
+Checkout the instructions file in the zip folder for help!*/
+
+QWidget {
+	color: #ffffffff;
+	background: transparent;
+	alternate-background-color: transparent;
+}
+
+QMainWindow, QWidget#centralWidget {
+    border-image: url("PATH_TO_YOUR_IMAGE") 0 0 0 0 stretch stretch;
+}
+
+QDialog {
+	background: #1f1f1f;
+}
+
+QTableView {
+	selection-background-color: transparent;
+}
+
+QHeaderView {
+	color: #ffffffff;
+}
+
+QHeaderView::section {
+	background: transparent;
+	color: #ffffffff;
+}
+
+QTabBar::tab {
+	background: #2a2a2a;
+}
+
+QTabBar::tab::selected {
+	background: #424242;
+	color: #ffffffff;
+}
+
+QComboBox, QDateTimeEdit, QLineEdit {
+	background: transparent;
+	color: #ffffffff;
+	border: 0.05em solid  #ffffffff;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	padding-left: 0.1em;
+}
+QComboBox QAbstractItemView {
+	background: #2d2d2d;
+}
+QComboBox::disabled, QDateTimeEdit::disabled, QLineEdit::disabled {
+	background: #828790;
+	color: #ffffffff;
+}
+
+QSpinBox, QDoubleSpinBox {
+	background-color: #1f1f1f;
+}
+QSpinBox::disabled, QDoubleSpinBox::disabled {
+	background-color: #828790;
+}
+
+QMenuBar::item:selected {
+	background: #515151;
+	color: #ffffff
+}
+
+QMenu {
+	background: #1f1f1f;
+	color: #ffffffff;
+}
+
+QMenu::item:selected {
+	background: #515151;
+	color: #c1c1c1;
+}
+QMenu::item:disabled {
+	background-color: #828790;
+	color: #2f2f2f;
+}
+
+QToolButton::hover {
+	background-color: #bbbbbb;
+}
+
+QPushButton {
+	background: #cad0db;
+}
+
+QPushButton::disabled {
+	background: #828790;
+}
+
+QTabWidget::pane {
+	border: 0.05em solid #ffffff;
+}

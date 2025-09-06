@@ -1,0 +1,14 @@
+NOTE: This was a theme I just made for myself and what style I like, but most of it is just vanilla so figured most ppl could use it since it's super easy
+to replace the background image. I might update it in the future with better design.
+
+1. If you are on 5.0-16393 or above, make sure the image you wanna use is a PNG, from my testing only those work since dolphin switched to Qt6.
+However if you are on an older version, any image format should work.
+
+2. Navigate to your dolphin's "Styles" folder and put the "Meow.qss" file in there, this is usually in Users > username > AppData > Roaming > Dolphin Emulator > Styles
+
+3. Open the qss file in a text editor and replace PATH_TO_YOUR_IMAGE with the file directory of your image. (This is in line 11)
+Make sure to not accidently remove the quotation marks, parentheses, etc.
+Make sure to replace any back slashes "\" in the path with forward slashes "/"
+
+**OPTIONAL**
+4. If the text looks off because of the image background, replace the first color code with one that matches (This is i line 5)
